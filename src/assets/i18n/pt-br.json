@@ -1,0 +1,69 @@
+{
+  "BACK_BUTTON_TEXT": "Voltar",
+
+  "NAME": "Nome",
+  "EMAIL": "Email",
+  "USERNAME": "Nome de Usuário",
+  "PASSWORD": "Senha",
+  "LOGIN": "Entrar",
+  "SIGNUP": "Cadastre-se",
+  "CRM": "CRM",
+
+  "TAB1_TITLE": "Itens",
+  "TAB2_TITLE": "Busca",
+  "TAB3_TITLE": "Configurações",
+
+  "MAP_TITLE": "Mapa",
+
+  "TUTORIAL_SKIP_BUTTON": "Pular",
+  "TUTORIAL_CONTINUE_BUTTON": "Continuar",
+
+  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao Aplicativo da Imuno Center",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>Imuno Center App</b> tem conteúdo exclusivo para médicos. Para seguir é importante informar seu CRM. Caso não seja médico não prossiga.",
+
+  "TUTORIAL_SLIDE2_TITLE": "O que vai encontrar?!?",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Aqui você vai encontrar todas as informações sobre nossos produtos e serviço. Nossa missão é oferecer melhores opções em diagnóstico e tratamento para os processos imunoalérgicos, disponibilizando produtos de qualidade, eficazes e seguros.",
+
+  "TUTORIAL_SLIDE3_TITLE": "Solicitações e Prescrições",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Por aqui você vai poder enviar solicitação de cotações apenas tirando a foto da prescrição direto do APP.",
+
+  "TUTORIAL_SLIDE4_TITLE": "Pronto para começar?",
+
+  "WELCOME_INTRO": "Comece fazendo seu cadastro ou entrando na sua conta.",
+
+  "SETTINGS_TITLE": "Configurações",
+  "SETTINGS_OPTION1": "Opção 1",
+  "SETTINGS_OPTION2": "Opção 2",
+  "SETTINGS_OPTION3": "Opção 3",
+  "SETTINGS_OPTION4": "Opção 4",
+
+  "SETTINGS_PROFILE_BUTTON": "Editar Perfil",
+
+  "SETTINGS_PAGE_PROFILE": "Editar Perfil",
+
+  "WELCOME_TITLE": "Bem-vindo",
+
+  "LOGIN_TITLE": "Entrar",
+  "LOGIN_ERROR": "Não foi possível entrar na sua conta. Verifique seus dados e tente novamente.",
+  "LOGIN_BUTTON": "Entrar",
+  "SIGNUP_TITLE": "Cadastre-se",
+  "SIGNUP_ERROR": "Não foi possível criar sua conta. Verifique seus dados e tente novamente.",
+  "SIGNUP_BUTTON": "Cadastre-se",
+
+  "LIST_MASTER_TITLE": "Itens",
+
+  "ITEM_CREATE_TITLE": "Novo Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Imagem",
+
+  "ITEM_NAME_PLACEHOLDER": "Nome",
+  "ITEM_ABOUT_PLACEHOLDER": "Sobre",
+
+  "DONE_BUTTON": "Pronto",
+  "CANCEL_BUTTON": "Cancelar",
+  "DELETE_BUTTON": "Apagar",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Busca",
+  "SEARCH_PLACEHOLDER": "Procure um item da lista, ex: \"Donald Duck\""
+}

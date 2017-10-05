@@ -17,19 +17,18 @@ import { Settings } from '../providers/providers';
 
     <ion-content>
       <ion-list>
-      <button menuClose ion-item class="button-menu" (click)="openPage()">
+      <button menuClose ion-item class="button-menu" (click)="openPage('ContentPage')">
       <ion-icon name="home">   </ion-icon> Home
       </button> 
       <button menuClose ion-item class="button-menu" (click)="openPage(p)">
         <ion-icon name="information-circle">  </ion-icon>  Quem somos
         </button>
-        <button menuClose ion-item class="button-menu" (click)="openPage(p)">
+        <button menuClose ion-item class="button-menu" (click)="openPage('TabsPage')">
         <ion-icon name="flask">  </ion-icon> Produtos
       </button>
       <button menuClose ion-item class="button-menu" (click)="openPage(p)">
       <ion-icon name="document">  </ion-icon> Solitações
     </button>
-    
     </ion-list>
 
       </ion-content>
@@ -89,7 +88,7 @@ export class MyApp {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     //this.nav.setRoot(page.component);
-    this.nav.setRoot('ContentPage');
+    this.nav.setRoot(page);
     
   }
   

@@ -20,21 +20,23 @@ import { Settings } from '../providers/providers';
       <button menuClose ion-item class="button-menu" (click)="openPage('ContentPage')">
       <ion-icon name="home">   </ion-icon> Home
       </button> 
-      <button menuClose ion-item class="button-menu" (click)="openPage(p)">
-        <ion-icon name="information-circle">  </ion-icon>  Quem somos
-        </button>
-        <button menuClose ion-item class="button-menu" (click)="openPage('TabsPage')">
-        <ion-icon name="flask">  </ion-icon> Produtos
+      <button menuClose ion-item class="button-menu" (click)="openPage('p')">
+      <ion-icon name="information-circle">  </ion-icon>  Quem somos
       </button>
-      <button menuClose ion-item class="button-menu" (click)="openPage(p)">
-      <ion-icon name="document">  </ion-icon> Solitações
+    
+      <button menuClose ion-item class="button-menu" (click)="openPage('ListMasterPage')">
+      <ion-icon name="flask">  </ion-icon>Produtos</button>
+    
+     <button menuClose ion-item class="button-menu" (click)="openPage('testette')">
+     <ion-icon name="contact">  </ion-icon> Contato
     </button>
-    </ion-list>
+   
+     </ion-list>
 
       </ion-content>
 
   </ion-menu>
-  <ion-nav #content [root]="rootPage" swipeBackEnabled="true"></ion-nav>`
+  <ion-nav #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>`
 })
 export class MyApp {
   rootPage = FirstRunPage;

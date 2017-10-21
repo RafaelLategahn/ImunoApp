@@ -15,4 +15,12 @@ export class ItemDetailPage {
     this.item = navParams.get('item') || items.defaultItem;
   }
 
+  bula(nome: string) {
+    window.open('http://crm_imunocenter.lategahn.eng.br/bulas/'+nome , '_system', 'location=yes');
+      // window.location.href = 'www.google.com.br'+ nome;
+       //  this.navCtrl.push('ItemCreatePage', {
+     //    item: item
+       
+     }
+
 }

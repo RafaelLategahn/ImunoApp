@@ -13,5 +13,12 @@
   <div class="item-detail" padding>
     <h2>{{item.name}}</h2>
     <p>{{item.about}}</p>
+ 
+    <ion-row>
+        <ion-col style="text-align: center">
+            <button (click)="bula(item.bula)" color="colorbutton" ion-button round> Bula</button>
+       </ion-col>
+     </ion-row>
   </div>
+
 </ion-content>

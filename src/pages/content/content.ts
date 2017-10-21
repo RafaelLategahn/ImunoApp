@@ -16,5 +16,12 @@ export class ContentPage {
       item: item
     });
   }
+  callus(tel: string) {
+ 
+    window.location.href = 'tel:'+ tel;
+    //  this.navCtrl.push('ItemCreatePage', {
+  //    item: item
+    
+  }
 
 }

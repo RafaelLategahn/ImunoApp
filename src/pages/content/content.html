@@ -9,10 +9,22 @@
 </ion-header>
 
 <ion-content padding class="scroll-content">
-    <div class="spacer" style="width: 300px; height: 434px;"></div>
+    <ion-card>
+        <img src="assets/img/lg_alergia2017.png"/>
+        <ion-card-content>
+          <ion-card-title>
+Aproveite o desconto do Congresso Brasileiro de Alergia
+            </ion-card-title>
+          <p>
+            Apenas durante a feira produtos com descontos especiais.
+          </p>
+        </ion-card-content>
+      </ion-card>
+
+    <div class="spacer" style="width: 200px; height: 200px;"></div>
     <ion-row>
             <ion-col style="text-align: center">
-             <button color="colorbutton" ion-button round>Enviar Cotação</button>
+             <button (click)="openForm()" color="colorbutton" ion-button round>Enviar Cotação</button>
            </ion-col>
            
          </ion-row>

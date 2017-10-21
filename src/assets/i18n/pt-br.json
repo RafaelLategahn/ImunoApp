@@ -53,10 +53,12 @@
   "LIST_MASTER_TITLE": "Produtos",
 
   "ITEM_CREATE_TITLE": "Novo Item",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Imagem",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Prescrição",
 
   "ITEM_NAME_PLACEHOLDER": "Nome",
   "ITEM_ABOUT_PLACEHOLDER": "Sobre",
+  "ITEM_EMAIL_PLACEHOLDER": "E-mail",
+  "ITEM_CEP_PLACEHOLDER": "Cep de entrega",
 
   "DONE_BUTTON": "Pronto",
   "CANCEL_BUTTON": "Cancelar",

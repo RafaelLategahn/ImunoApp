@@ -20,14 +20,18 @@ import { Settings } from '../providers/providers';
       <button menuClose ion-item class="button-menu" (click)="openPage('ContentPage')">
       <ion-icon name="home">   </ion-icon> Home
       </button> 
-      <button menuClose ion-item class="button-menu" (click)="openPage('p')">
+      <button menuClose ion-item class="button-menu" (click)="openPage('QuemSomosPage')">
       <ion-icon name="information-circle">  </ion-icon>  Quem somos
       </button>
     
       <button menuClose ion-item class="button-menu" (click)="openPage('ListMasterPage')">
       <ion-icon name="flask">  </ion-icon>Produtos</button>
-    
-     <button menuClose ion-item class="button-menu" (click)="openPage('testette')">
+      
+      <button menuClose ion-item class="button-menu" (click)="openPage('artigos')">
+      <ion-icon name="ios-paper">  </ion-icon> Artigos Cientificos
+     </button>
+
+     <button menuClose ion-item class="button-menu" (click)="openPage('ContatoPage')">
      <ion-icon name="contact">  </ion-icon> Contato
     </button>
    

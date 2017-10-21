@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
+import { Form } from '@angular/forms';
 
 @IonicPage()
 @Component({
@@ -9,5 +10,11 @@ import { IonicPage, NavController } from 'ionic-angular';
 export class ContentPage {
 
   constructor(public navCtrl: NavController) { }
+
+  openForm(item: Form) {
+    this.navCtrl.push('ItemCreatePage', {
+      item: item
+    });
+  }
 
 }

@@ -27,7 +27,7 @@ import { Settings } from '../providers/providers';
       <button menuClose ion-item class="button-menu" (click)="openPage('ListMasterPage')">
       <ion-icon name="flask">  </ion-icon>Produtos</button>
       
-      <button menuClose ion-item class="button-menu" (click)="openPage('artigos')">
+      <button menuClose ion-item class="button-menu" (click)="openPage('ArtigosPage')">
       <ion-icon name="ios-paper">  </ion-icon> Artigos Cientificos
      </button>
 
